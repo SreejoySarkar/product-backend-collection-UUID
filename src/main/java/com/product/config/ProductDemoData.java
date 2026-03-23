@@ -16,13 +16,13 @@ public class ProductDemoData implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        productService.addProduct(new Product("Laptoppp", 50000.0));
-        productService.addProduct(new Product("Mobileee", 20000.7));
-        productService.addProduct(new Product("Tablettt", 30000.7));
+        productService.addProduct(new Product("Laptop", 50000.0));
+        productService.addProduct(new Product("Mobile", 20000.7));
+        productService.addProduct(new Product("Tablet", 30000.7));
         productService.addProduct(new Product("WATCH", 35000.7));
         productService.addProduct(new Product("CricketBat", 10000.7));
 
-        IO.println("-------------------------------ADDED----------------------");
+        IO.println("---------------------ADDED----------------------");
 
     }
 }
